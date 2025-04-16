@@ -65,13 +65,13 @@
 // Current time
 echo (new DateTime('now'))->format('H:i:s.v'), "\n";
 
-// wait for 2 milliseconds
+// wait for 2 microseconds
 usleep(2000);
 
 // back!
 echo (new DateTime('now'))->format('H:i:s.v'), "\n";
 
-// wait for 30 milliseconds
+// wait for 30 microseconds
 usleep(30000);
 
 // back again!
